@@ -122,6 +122,7 @@
                 </div>
             </div>
         </section> -->
+        <h3>人氣渡假村</h3>
         <section class="test-area">
             <div class="left-layout">
                 <div class="sl-img">
@@ -132,6 +133,7 @@
                 </div>
             </div>
             <div class="right-layout">
+                <p class="area-title">日本北海道</p>
                 <div class="owl-carousel owl-theme">
                     <a href="#">
                         <div class="resort-img animation__el in">
@@ -189,17 +191,19 @@
     <script>
         $(".owl-carousel").owlCarousel({
             loop: true, // 循環播放
-            margin: 10, // 外距 10px
+            items: 3,
+            margin: 50, // 外距 10px
             nav: true, // 顯示點點
             responsive: {
-                // 0: {
-                //     items: 1 // 螢幕大小為 0~600 顯示 1 個項目
-                // },
-                // 600: {
-                //     items: 3 // 螢幕大小為 600~1000 顯示 3 個項目
-                // },
-                1000: {
-                    items: 3 // 螢幕大小為 1000 以上 顯示 5 個項目
+                0: {
+                    items: 2
+                    // 在小于等于 0 像素的屏幕上显示 3 个项目
+                },
+                1100: {
+                    items: 2 // 在小于等于 1100 像素的屏幕上显示 2 个项目
+                },
+                1700: {
+                    items: 3 // 在小于等于 1700 像素的屏幕上显示 3 个项目
                 }
             }
         });

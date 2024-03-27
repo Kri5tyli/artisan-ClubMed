@@ -50,7 +50,8 @@ main {
 }
 
 .include-area .title,
-.resort-area .title {
+.resort-area .title,
+main h3 {
     margin-bottom: 20px;
     font-size: calc(60/16*1rem);
     color:#8BDCFF;
@@ -228,7 +229,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 11%;
-    width: 80%;
+    width: 56%;
     border-radius: 25px;
     background-color: #fff;
 }
@@ -253,8 +254,8 @@ main {
 }
 .sl-img {
     position: relative;
-    width: 350px;
-    height: 320px;
+    width: 605px;
+    /* height: 320px; */
 }
 
 .sl-img img {
@@ -275,35 +276,53 @@ main {
 }
 
 .sl-title p {
-    margin-top: -20px;
-    font-size: 2.2rem;
+    margin-top: -10px;
+    font-size: 3.2rem;
     color: #f7f8fb;
 }
 
 .right-layout {
     display: flex;
-    padding-left:30px;
-    gap: 20px;
-    width: 960px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-bottom: 27px;
+    max-width: 960px;
     overflow-y: auto;
+    margin-right: 250px;
+    justify-content: center;
+}
+
+.area-title {
+    padding-bottom: 65px;
+    font-size: 2.6rem;
+    color: #64CEDA;
 }
 .right-layout a {
     position: relative;
     display: block;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 .resort-img {
-    width: 220px;
+    /* width: 285px;`` */
     border-radius: 20px 20px 2px 20px;
 }
 
 .resort-img img { 
-    max-width: 220px; 
-    width: 100%;
+    /* max-width: 220px; 
+    width: 100%; */
     border-radius: 20px 20px 2px 20px;
 }
+.owl-carousel .owl-item.active {
+    width: 300px;
+}
 
+@media (max-width:1500px) {
+    .right-layout {
+        margin-right: unset;
+        transform: translateX(-70px);
+    }
+}
 
 @media (max-width:800px) {
     .banner-title h1 {
