@@ -22,7 +22,6 @@ main {
 }
 
 .banner img {
-    max-width: 1980px;
     width: 100%;
 }
 
@@ -66,7 +65,7 @@ main h3 {
     justify-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
-    padding: 0 15%;
+    padding: 0 9%;
     width: 100%;
 }
 
@@ -254,7 +253,8 @@ main h3 {
 }
 .sl-img {
     position: relative;
-    width: 605px;
+    /* width: 605px; */
+    width: 50vh;
     /* height: 320px; */
 }
 
@@ -288,7 +288,7 @@ main h3 {
     padding-bottom: 27px;
     max-width: 960px;
     overflow-y: auto;
-    margin-right: 250px;
+    margin-right: 13%;
     justify-content: center;
 }
 
@@ -313,14 +313,17 @@ main h3 {
     width: 100%; */
     border-radius: 20px 20px 2px 20px;
 }
-.owl-carousel .owl-item.active {
-    width: 300px;
-}
 
 @media (max-width:1500px) {
     .right-layout {
         margin-right: unset;
         transform: translateX(-70px);
+    }
+}
+
+@media (max-width:1000px) {
+    .sl-img {
+        width: 30vh;
     }
 }
 
@@ -334,7 +337,8 @@ main h3 {
     }
 
     .include-area .title,
-    .resort-area .title {
+    .resort-area .title,
+    main h3 {
         font-size: calc(42/16*1rem);
     }
 
@@ -389,8 +393,21 @@ main h3 {
         height: 170%;
     }
 
-    .resort-img {
+    /* .resort-img {
         width: 200px;
+    } */
+    .area-title {
+        padding: 10px 0 20px;
+        color: #f7f8fb;
+        font-size:1.6rem;
+    }
+    /* .sl-img {
+        width: 300px;
+    } */
+
+    .right-layout {
+        padding: 0 20px;
+        transform:unset;
     }
 }
 
@@ -401,7 +418,8 @@ main h3 {
         object-fit: cover;
     }
     .include-area .title,
-    .resort-area .title {
+    .resort-area .title,
+    main h3 {
         font-size: calc(25/16*1rem);
     }
 
