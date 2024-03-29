@@ -54,6 +54,7 @@ main h3 {
     margin-bottom: 20px;
     font-size: calc(60/16*1rem);
     color:#8BDCFF;
+    text-align: center;
 }
 
 .animation__el.in {
@@ -254,7 +255,7 @@ main h3 {
 .sl-img {
     position: relative;
     /* width: 605px; */
-    width: 50vh;
+    width: 55vh;
     /* height: 320px; */
 }
 
@@ -321,11 +322,16 @@ main h3 {
     }
 }
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
+    .sl-img {
+        width: 48vh;
+    }
+}
+/* @media (max-width:1000px) {
     .sl-img {
         width: 30vh;
     }
-}
+} */
 
 @media (max-width:800px) {
     .banner-title h1 {
@@ -344,6 +350,10 @@ main h3 {
 
     .item-wrap {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sl-img {
+        width: 25vh;
     }
 
     /* .test-area {
@@ -389,7 +399,7 @@ main h3 {
     }
     .sl-img::after {
         top: -63px;
-        width: 130%;
+        width: 105%;
         height: 170%;
     }
 

@@ -191,18 +191,18 @@
     <script>
         $(".owl-carousel").owlCarousel({
             loop: true, // 循環播放
-            items: 3,
+            // items: 3,
             margin: 50, // 外距 10px
             nav: true, // 顯示點點
             responsive: {
-                0: {
+                200: {
+                    items: 3
+                },
+                600: {
                     items: 2
                     // 在小于等于 0 像素的屏幕上显示 3 个项目
                 },
-                1000: {
-                    items: 3 // 在小于等于 1100 像素的屏幕上显示 2 个项目
-                },
-                1700: {
+                1200: {
                     items: 3 // 在小于等于 1700 像素的屏幕上显示 3 个项目
                 }
             }
