@@ -165,7 +165,7 @@ main h3 {
     width: 100%;
 } */
 
-.blue-bg {
+/*.blue-bg {
     position: absolute;
     top: 13px;
     left: -12px;
@@ -176,7 +176,7 @@ main h3 {
     background-color: #64CEDA;
     border-radius: 5px 20px 20px 5px;
     z-index: -99;
-}
+}*/
 
 .img-bg {
     max-width: 400px;
