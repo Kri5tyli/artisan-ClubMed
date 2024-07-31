@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/resort.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+
+    <title>印尼峇里島</title>
+  </head>
+  <body class="ocean-resort">
+    <section class="section1">
+      <h2>印尼</h2>
+      <h1 class="ocean">峇里島</h1>
+      <div class="banner">
+        <div class="banner-img-container">
+          <img src="/images/Bali/banner.jpg" alt="" />
+        </div>
+
+        <div class="text">
+          東南亞度假村，峇里島旅遊假期首選位於印尼努沙杜瓦海灘的 Club Med
+          峇里島(巴里島)度假村，是 Club Med
+          東南亞旗艦度假村，擁有巴度火山的壯麗景色、獨特的梯田文化、以及清澈的海水與細白沙灘，處處充滿了活力與異國風情。全包式假期內容，提供機票與溫馨住宿環境，同時擁有一應俱全的水陸活動：獨木舟、浮潛、風帆、射箭，每項活動都有專業G.O從旁免費指導，提供您最安全愉快的休閒活動環境。度假村更為高爾夫球愛好者提供完善的高爾夫球設施及豐富課程。另可選擇前往度假村外的三座國際級18洞高爾夫球場－The
+          Bali National 高爾夫球俱樂部、－The Kuta 高爾夫球俱樂部和－The Nirvana
+          高爾夫球俱樂部，在假期中盡享揮桿樂趣！Club Med
+          巴里島(峇里島)以家庭區和靜區的分區度假概念，以及房間整修升級，全度假村分為「靜區」和「家庭區」，讓大人小孩都可以各取所需、享受獨一無二的親子假期！「家庭區」提供家庭熱鬧親子互動空間，包括主游池、360度全景海灘景觀主吧台、全新兒童俱樂部、及劇院。另外，「靜區」提供情侶及成人不受打攪的私密空間，特別規劃成人靜池、甲板美食餐廳、以及饕客貴賓廳。其中「成人靜池」與「甲板美食餐廳」，分別提供靜謐休憩空間和精緻桌邊服務海鮮料理，餐廳內的「饕客貴賓廳」更提供高級酒品及特選料理,讓您享受悠閒彈性的全日餐點服務。除此之外，分齡分級兒童俱樂部提供從4個月到17歲的孩子專屬又安全的玩樂空間,由專業G.O帶領小朋友們一起體驗精彩有趣的活動，讓全家人都能留下歡樂難忘的假期回憶。
+        </div>
+      </div>
+    </section>
+    <section class="section2">
+      <h1 class="ocean">房間&公共區域</h1>
+      <h2>
+        <span class="room" onclick="ShowSlick(2)">2人房</span><span>/</span
+        ><span class="room span-active-ocean" onclick="ShowSlick(1)"
+          >公共區域</span
+        >
+      </h2>
+      <div class="public" id="KiroroPeak2-public">
+        <div class="owl-container">
+          <div class="owl-carousel">
+            <div>
+              <div class="img-contain">
+                <div class="img-title">大廳娛樂區</div>
+                <img src="/images/Bali/public.jpg" />
+              </div>
+            </div>
+            <div>
+              <div class="img-contain">
+                <div class="img-title">主泳池</div>
+                <img src="/images/Bali/public2.jpg" />
+              </div>
+            </div>
+            <div>
+              <div class="img-contain">
+                <div class="img-title">成人靜池</div>
+                <img src="/images/Bali/public3.jpg" />
+              </div>
+            </div>
+            <div>
+              <div class="img-contain">
+                <div class="img-title">接待大廳</div>
+                <img src="/images/Bali/public4.jpg" />
+              </div>
+            </div>
+            <div>
+              <div class="img-contain">
+                <div class="img-title">渡假村景觀</div>
+                <img src="/images/Bali/public5.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="two" id="KiroroPeak2-two">
+        <div class="owl-container">
+          <div class="owl-carousel">
+            <div>
+              <div class="img-contain">
+                <div class="img-title">套房</div>
+                <img src="/images/Bali/套房.jpg" />
+              </div>
+            </div>
+            <div>
+              <div class="img-contain">
+                <div class="img-title">標準房</div>
+                <img src="/images/Bali/標準房.jpg" />
+              </div>
+            </div>
+            <div>
+              <div class="img-contain">
+                <div class="img-title">標準房帶陽台</div>
+                <img src="/images/Bali/標準房帶陽台.jpg" />
+              </div>
+            </div>
+            <div>
+              <div class="img-contain">
+                <div class="img-title">麗緻房 帶露臺</div>
+                <img src="/images/Bali/麗緻房-帶露臺.jpg" />
+              </div>
+            </div>
+            <div>
+              <div class="img-contain">
+                <div class="img-title">麗緻房</div>
+                <img src="/images/Bali/麗緻房2.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pos-f-t">
+          <nav class="navbar">
+            <button
+              class="navbar-toggler"
+              style="background-color: #f89b29"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarToggleExternalContent1"
+              aria-controls="navbarToggleExternalContent1"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon" style="color: white"
+                >客房設備</span
+              >
+            </button>
+          </nav>
+          <div
+            class="collapse"
+            id="navbarToggleExternalContent1"
+            style="background-color: #f89b29"
+          >
+            <div class="p-4" style="background-color: #f89b29">
+              <div class="container">
+                <div class="room-title">2人房-標準房</div>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="item">
+                      <h3>客房設施</h3>
+                      <ul>
+                        <li>空調設備</li>
+                        <li>電話</li>
+                        <li>沙發</li>
+                        <li>平面電視</li>
+                        <li>網路</li>
+                        <li>折疊扶手椅</li>
+                        <li>咖啡/茶沖泡用具</li>
+                        <li>熨斗組</li>
+                        <li>雨傘</li>
+                        <li>保險箱</li>
+                        <li>暖氣</li>
+                        <li>Type B 規格插座/100-127伏特</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="item">
+                      <h3>客房設施</h3>
+                      <ul>
+                        <li>空調設備</li>
+                        <li>電話</li>
+                        <li>沙發</li>
+                        <li>平面電視</li>
+                        <li>網路</li>
+                        <li>折疊扶手椅</li>
+                        <li>咖啡/茶沖泡用具</li>
+                        <li>熨斗組</li>
+                        <li>雨傘</li>
+                        <li>保險箱</li>
+                        <li>暖氣</li>
+                        <li>Type B 規格插座/100-127伏特</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="item">
+                      <h3>客房設施</h3>
+                      <ul>
+                        <li>空調設備</li>
+                        <li>電話</li>
+                        <li>沙發</li>
+                        <li>平面電視</li>
+                        <li>網路</li>
+                        <li>折疊扶手椅</li>
+                        <li>咖啡/茶沖泡用具</li>
+                        <li>熨斗組</li>
+                        <li>雨傘</li>
+                        <li>保險箱</li>
+                        <li>暖氣</li>
+                        <li>Type B 規格插座/100-127伏特</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <h1 class="ocean">餐廳&吧檯</h1>
+
+      <div class="owl-container">
+        <div class="owl-carousel">
+          <div>
+            <div class="img-contain">
+              <img src="/images/Bali/restaurant.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <img src="/images/Bali/restaurant2.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <img src="/images/Bali/restaurant3.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <img src="/images/Bali/restaurant4.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <img src="/images/Bali/bar.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <img src="/images/Bali/bar2.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <img src="/images/Bali/bar3.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <img src="/images/Bali/bar4.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-container">
+        <button class="ocean-btn">立即洽詢</button>
+      </div>
+    </section>
+    <section class="section4">
+      <h1 class="ocean">其他渡假村</h1>
+      <div class="owl-container">
+        <div class="owl-carousel" id="carousel-four">
+          <div>
+            <div class="img-contain">
+              <div class="name">日本北海道Kiroro Peak</div>
+              <img src="/images/KiroroPeak/banner.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <div class="name">日本北海道Kiroro Grand本館</div>
+              <img src="/images/KiroroGrand/banner.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <div class="name">日本Tomamu北海道</div>
+              <img src="/images/Tomam/banner.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <div class="name">日本Sahoro北海道</div>
+              <img src="/images/Sahoro/banner.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <div class="name">馬爾地夫卡尼島</div>
+              <img src="/images/Kani/banner.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <div class="name">馬爾地夫芬尼芙別墅</div>
+              <img src="/images/Villa/banner.jpg" />
+            </div>
+          </div>
+
+          <div>
+            <div class="img-contain">
+              <div class="name">印尼民丹島</div>
+              <img src="/images/Bintan/banner.jpg" />
+            </div>
+          </div>
+          <div>
+            <div class="img-contain">
+              <div class="name">泰國普吉島</div>
+              <img src="/images/Phuket/banner.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery (完整版) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="resort.js"></script>
+    <script src="/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // 獲取所有帶有 .room 類的元素
+        const roomElements = document.querySelectorAll('.room');
+        roomElements.forEach((room) => {
+          room.addEventListener('click', function () {
+            // 移除所有元素上的 .active 類
+            roomElements.forEach((r) =>
+              r.classList.remove('span-active-ocean')
+            );
+            // 為點擊的元素添加 .active 類
+            this.classList.add('span-active-ocean');
+          });
+        });
+
+        // document.getElementById('KiroroPeak2-public').classList.add('hideDisplay');
+        document.getElementById('KiroroPeak2-two').classList.add('hideDisplay');
+        document
+          .getElementById('KiroroPeak2-three')
+          .classList.add('hideDisplay');
+        document
+          .getElementById('KiroroPeak2-four')
+          .classList.add('hideDisplay');
+      });
+      function ShowSlick(int) {
+        // 元素數組
+        const elements = ['KiroroPeak2-public', 'KiroroPeak2-two'];
+
+        // 遍歷所有元素
+        elements.forEach((id, index) => {
+          const element = document.getElementById(id);
+          if (index === int - 1) {
+            element.classList.add('showDisplay');
+            element.classList.remove('hideDisplay');
+          } else {
+            element.classList.add('hideDisplay');
+            element.classList.remove('showDisplay');
+          }
+        });
+      }
+      $(document).ready(function () {
+        $('.owl-carousel').each(function () {
+          $(this).owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: ['<', '>'],
+            responsive: {
+              0: {
+                items: 1,
+              },
+              600: {
+                items: 2,
+              },
+              1000: {
+                items: 3,
+              },
+            },
+          });
+        });
+        $('#carousel-four').owlCarousel('destroy'); // Destroy the previous instance to avoid conflicts
+        $('#carousel-four').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          navText: ['<', '>'],
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+              items: 4,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
